@@ -13,7 +13,7 @@ Distributed under GNU General Public License: http://www.gnu.org/licenses/
 
 ## Manual
 
-# Prerequisites:
+### Prerequisites:
 
 You need to have basic packages installed (gnuplot, awk, g++) and also install 2HDMC, HiggsBounds, HiggsSignals. Also you need to create the following static libraries of 2HDMC, HiggsBounds, HiggsSignals which are linked with my program:
 
@@ -34,17 +34,17 @@ You may also wish to change the compiler from ifort to gcc/g++ in ./src/Makefile
 
 If everything is done properly you should be able to compile with just typing 'make' and produce a binary in ./bin directory (./bin/ParameterScan_Hybrid_MultiDim)
 
-# Usage:
+### Usage:
 
 1, Check the current settings in the ./Makefile
 
-# run_segment
+#### run_segment
 run_TASK - selects the .sh script to run in ./tasks/
 run_CONFIG - parameter space config found in ./config directory (what range, how many points in each dim, etc)
 run_TAG - should be equal to the working directory (default is test)
 run_WRITELHA - 1 - write full LHA output as well, 0 - don't write LHA output
 
-# form_dat segment
+#### form_dat segment
 These help you to filter and format the output data coming from 2HDMC, HB, HS.
 
 The list of
@@ -55,7 +55,7 @@ form_dat_filterfield
 form_dat_filterval
 Determines which filter variables and values you use in the end
 
-# fig_segment
+#### fig_segment
 
 fig_job_tag = the working dir in which the script looks to plot from
 fig_out_tag = which subset of results named by the 'tag' to plot
