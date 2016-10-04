@@ -24,8 +24,8 @@ You need to have basic packages installed (gnuplot, awk, g++) and also install 2
 (please refer to the manuals of 2HDMC, HB and HS for installing and creating these static libraries)
 
 Once this is done then you need to set the following PATH variables in the `./src/Makefile`:
-- L`IBDIRLINK`
-This should point to the directory where the *.a are placed.
+- `LIBDIRLINK`
+This should point to the directory where the `*.a` are placed.
 
 - `INCDIRLINK`
 This should point to the directory where 2HDMC/src is installed e.g. `~/packages/2HDMC-1.7.0/src/`
