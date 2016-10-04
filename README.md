@@ -28,11 +28,11 @@ Once this is done then you need to set the following PATH variables in the ./src
 This should point to the directory where the *.a are placed.
 
 - INCDIRLINK
-This should point to the directory where 2HDMC/src is installed e.g. ~/packages/2HDMC-1.7.0/src/
+This should point to the directory where 2HDMC/src is installed e.g. `~/packages/2HDMC-1.7.0/src/`
 
-You may also wish to change the compiler from ifort to gcc/g++ in ./src/Makefile.
+You may also wish to change the compiler from ifort to gcc/g++ in `./src/Makefile`.
 
-If everything is done properly you should be able to compile with just typing 'make' and produce a binary in ./bin directory (./bin/ParameterScan_Hybrid_MultiDim)
+If everything is done properly you should be able to compile with just typing `make` and produce a binary in `./bin` directory (`./bin/ParameterScan_Hybrid_MultiDim`)
 
 ### Usage:
 
@@ -51,17 +51,17 @@ If everything is done properly you should be able to compile with just typing 'm
 These help you to filter and format the output data coming from 2HDMC, HB, HS.
 
 The list of
-form_data_parameters = parameter_value
+`form_data_parameters = parameter_value`
 are the parameters and their values you wish to set
 
-form_dat_filterfield
-form_dat_filterval
+`form_dat_filterfield`
+`form_dat_filterval`
 Determines which filter variables and values you use in the end
 
 #### fig_segment
 
-fig_job_tag = the working dir in which the script looks to plot from
-fig_out_tag = which subset of results named by the 'tag' to plot
+`fig_job_tag` = the working dir in which the script looks to plot from
+`fig_out_tag` = which subset of results named by the 'tag' to plot
 
 2, Create a new working directory in ./results/test
 > `make new TAG=test`
