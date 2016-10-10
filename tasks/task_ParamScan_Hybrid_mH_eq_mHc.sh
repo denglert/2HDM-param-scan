@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 #####################
 ### Configuration ###
@@ -7,7 +7,9 @@
 ##################################
 ### Setting up the environment ###
 
-module load gsl
+# Need to import 'gsl' library on IRIDIS
+# On other platform please check if libgsl is properly loaded
+#module load gsl
 
 ###############################
 

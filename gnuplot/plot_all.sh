@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 fig_job_tag=$1
 fig_out_tag=$2

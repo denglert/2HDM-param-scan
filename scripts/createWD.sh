@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # Creates working directory
 
 # Protection for unset TAG, in order not to wipe out ./results directory.
