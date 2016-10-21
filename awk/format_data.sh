@@ -123,5 +123,5 @@ echo "infobox_val5 = ${form_dat_filterval5}" >> $OUTPUT_GNUPLOT
 echo "xlab = \"${axis_label[${form_dat_XVar}]}\"" >> $OUTPUT_GNUPLOT
 echo "ylab = \"${axis_label[${form_dat_YVar}]}\"" >> $OUTPUT_GNUPLOT
 
-echo "XVar = \"${form_dat_XVar}\"" >> $OUTPUT_GNUPLOT
-echo "YVar = \"${form_dat_YVar}\"" >> $OUTPUT_GNUPLOT
+echo "XVar = ${form_dat_XVar}" >> $OUTPUT_GNUPLOT
+echo "YVar = ${form_dat_YVar}" >> $OUTPUT_GNUPLOT
